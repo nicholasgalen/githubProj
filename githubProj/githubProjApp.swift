@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct githubProjApp: App {
+    // setamos o nosso viewmodel para o user
+    @StateObject private var userVM = UserViewModel()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(userVM)  // injetamos o viewModel para todas as views
         }
     }
 }

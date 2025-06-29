@@ -2,7 +2,7 @@
 //  githubProjApp.swift
 //  githubProj
 //
-//  Created by Ana Paula Marcal Franzoi on 29/06/25.
+//  Created by Nicholas Galen on 29/06/25.
 //
 
 import SwiftUI
